@@ -33,3 +33,30 @@ O projeto **Printf** desafia os estudantes a implementar sua própria versão da
 | **Norminette**         | Garantia de conformidade com os padrões de estilo da 42. |
 
 ---
+## ✨ Funcionalidades Implementadas
+
+A implementação personalizada do `ft_printf` inclui as seguintes funcionalidades:
+
+### 🔤 Especificadores de Formato
+- `%c` → Exibe um único caractere.  
+- `%s` → Exibe uma string.  
+- `%p` → Exibe um ponteiro no formato hexadecimal.  
+- `%d` / `%i` → Exibe um número inteiro decimal com sinal.  
+- `%u` → Exibe um número inteiro decimal sem sinal.  
+- `%x` → Exibe um número hexadecimal em minúsculo.  
+- `%X` → Exibe um número hexadecimal em maiúsculo.
+
+### 🛠️ Funcionalidades Técnicas
+- **Gerenciamento de Parâmetros Variáveis**: Uso de `stdarg.h` para manipular listas de argumentos de forma dinâmica com `va_list`.  
+- **Saída Formatada**: Construção de strings personalizadas para diferentes especificadores de formato.  
+- **Descritores de Arquivos (File Descriptors)**: Suporte para direcionar a saída para diferentes descritores, como `stdout` ou `stderr`.  
+- **Manuseio de Erros**: Tratamento de erros em casos como ponteiros nulos ou argumentos inválidos.  
+- **Eficiência na Saída**: Uso otimizado de buffers para melhorar a performance da saída formatada.
+
+### 🔄 Conversões e Base Numérica
+- Conversões automáticas de inteiros e caracteres em strings para saída.  
+- Suporte para exibir números em diferentes bases (decimal e hexadecimal).  
+
+---
+
+Estas funcionalidades foram cuidadosamente implementadas para refletir o comportamento do `printf` padrão, respeitando as limitações e especificações do projeto. 🚀
