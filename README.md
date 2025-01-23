@@ -53,10 +53,6 @@ A implementação personalizada do `ft_printf` inclui as seguintes funcionalidad
 - **Manuseio de Erros**: Tratamento de erros em casos como ponteiros nulos ou argumentos inválidos.  
 - **Eficiência na Saída**: Uso otimizado de buffers para melhorar a performance da saída formatada.
 
-### 🔄 Conversões e Base Numérica
-- Conversões automáticas de inteiros e caracteres em strings para saída.  
-- Suporte para exibir números em diferentes bases (decimal e hexadecimal).  
-
 ---
 
 Estas funcionalidades foram cuidadosamente implementadas para refletir o comportamento do `printf` padrão, respeitando as limitações e especificações do projeto. 🚀
